@@ -72,11 +72,8 @@ var ternary4d = require( '@stdlib/array-base-ternary4d' );
 Applies a ternary callback to elements in three four-dimensional nested input arrays and assigns results to elements in a four-dimensional nested output array.
 
 ```javascript
+var add = require( '@stdlib/math-base-ops-add3' );
 var zeros4d = require( '@stdlib/array-base-zeros4d' );
-
-function add( x, y, z ) {
-    return x + y + z;
-}
 
 var x = [ [ [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] ] ];
 var out = zeros4d( [ 1, 1, 2, 2 ] );
@@ -117,11 +114,8 @@ The function accepts the following arguments:
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filled4dBy = require( '@stdlib/array-base-filled4d-by' );
 var zeros4d = require( '@stdlib/array-base-zeros4d' );
+var add = require( '@stdlib/math-base-ops-add3' );
 var ternary4d = require( '@stdlib/array-base-ternary4d' );
-
-function add( x, y, z ) {
-    return x + y + z;
-}
 
 var shape = [ 1, 3, 3, 3 ];
 
@@ -192,8 +186,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-ternary4d.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-ternary4d
 
-[test-image]: https://github.com/stdlib-js/array-base-ternary4d/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-base-ternary4d/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-base-ternary4d/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-ternary4d/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-ternary4d/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-ternary4d?branch=main
