@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@esm/index.mjs';
+import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@v0.2.0-esm/index.mjs';
 ```
 
 #### ternary4d( arrays, shape, fcn )
@@ -104,7 +104,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@esm/index.mjs';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@esm/index.mjs';
-import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@esm/index.mjs';
+import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@v0.2.0-esm/index.mjs';
 
 var shape = [ 1, 3, 3, 3 ];
 
