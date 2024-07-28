@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-ternary4d/tags). For example,
+
+```javascript
 import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@v0.2.2-esm/index.mjs';
 ```
 
@@ -104,7 +109,7 @@ var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-bas
 import filled4dBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d-by@esm/index.mjs';
 import zeros4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros4d@esm/index.mjs';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add3@esm/index.mjs';
-import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@v0.2.2-esm/index.mjs';
+import ternary4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-ternary4d@esm/index.mjs';
 
 var shape = [ 1, 3, 3, 3 ];
 
